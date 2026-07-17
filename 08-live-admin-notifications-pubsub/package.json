@@ -1,13 +1,13 @@
 {
-  "name": "06-email-queue-with-redis-lists",
+  "name": "08-live-admin-notification-pubsub",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node --watch src/index.js"
+    "dev": "node --watch src/api.js",
+    "worker": "node --watch src/subscriber.js"
   },
   "dependencies": {
     "express": "^5.2.1",
     "ioredis": "^5.11.1"
   }
 }
- 
