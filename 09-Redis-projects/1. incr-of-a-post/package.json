@@ -1,0 +1,21 @@
+{
+  "name": "1.-incr-of-a-post",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "incr": "bun run src/index.ts",
+    "zincrby": "bun run src/leaderboard.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^5.11.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
